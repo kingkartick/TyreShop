@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "products",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Productcategory": {
+      "type": "string"
+    },
+    "Productnumber": {
+      "type": "string"
+    },
+    "Productname": {
+      "type": "string"
+    },
+    "TireSize": {
+      "type": "string"
+    },
+    "BRAND": {
+      "type": "string"
+    },
+    "ETRTO": {
+      "type": "string"
+    },
+    "TPI": {
+      "type": "string"
+    },
+    "BEAD": {
+      "type": "string"
+    },
+    "MAX_PSI": {
+      "type": "string"
+    },
+    "Protection_Level_availability": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    }
+  }
+}

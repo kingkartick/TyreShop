@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tyresizes",
+  "info": {
+    "singularName": "tyresize",
+    "pluralName": "tyresizes",
+    "displayName": "Tyresize"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sizes": {
+      "type": "string"
+    }
+  }
+}
